@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import landingStyle from '../styles/landingpage.module.css'
 import { motion } from 'framer-motion'
+import { Button } from './components/button.module.'
 
 export default function Home() {
   return (
@@ -40,13 +41,14 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
               className="w-1/2">
-       <p className='text-6xl mb-10 font-bold'>Your calling is calling</p>
-<p className='mb-10'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, deleniti dolor magni itaque laboriosam beatae porro repellendus accusamus optio voluptas! Ducimus labore natus mollitia ut, blanditiis dicta voluptatum culpa aut.</p>
-              <motion.button
-                transition={{ duration: 0.4 }}
+              <p className='text-6xl mb-10 font-bold'>Your calling is calling</p>
+              <p className='mb-10'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, deleniti dolor magni itaque laboriosam beatae porro repellendus accusamus optio voluptas! Ducimus labore natus mollitia ut, blanditiis dicta voluptatum culpa aut.</p>
+
+              <Button
+                className="bg-blue-700 px-16 text-xl py-5 rounded-lg text-white tracking-widest"
                 whileHover={{ scale: 1.1 }}
-                className='bg-blue-700 px-16 text-xl py-5 rounded-lg text-white tracking-widest'>Job Seekers
-              </motion.button>
+                transition={{ duration: 0.4 }}
+                buttonText="Job Seeker"></Button>
             </motion.div>
 
 
@@ -55,13 +57,13 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
               className="w-1/2">
-         <p className='text-6xl mb-10 font-bold'>Your calling is calling</p>
-<p className='mb-10'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, deleniti dolor magni itaque laboriosam beatae porro repellendus accusamus optio voluptas! Ducimus labore natus mollitia ut, blanditiis dicta voluptatum culpa aut.</p>
-              <motion.button
-                transition={{ duration: 0.4 }}
+              <p className='text-6xl mb-10 font-bold'>Your calling is calling</p>
+              <p className='mb-10'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, deleniti dolor magni itaque laboriosam beatae porro repellendus accusamus optio voluptas! Ducimus labore natus mollitia ut, blanditiis dicta voluptatum culpa aut.</p>
+              <Button
+                className="bg-blue-700 px-16 text-xl py-5 rounded-lg text-white tracking-widest"
                 whileHover={{ scale: 1.1 }}
-                className='bg-blue-700 px-16 text-xl py-5 rounded-lg text-white tracking-widest'>Recruiters
-              </motion.button>
+                transition={{ duration: 0.4 }}
+                buttonText="Recruiter"></Button>
             </motion.div>
 
           </div>
