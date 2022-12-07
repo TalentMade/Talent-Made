@@ -41,3 +41,11 @@ async function GetUser(req: NextApiRequest, res:NextApiResponse){
 
     res.json(result);
 }
+
+async function Update(req: NextApiRequest, res:NextApiResponse){
+
+    console.log(req.body.username);
+    const result = await supabase.from("User").select("*").eq("UserName", req.body.username);
+
+    res.json(result);
+}
