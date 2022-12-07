@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landingpageimg': "url('https://media.istockphoto.com/id/1282730177/photo/human-resource-manager-looking-at-many-different-cv-resume.jpg?s=1024x1024&w=is&k=20&c=hvj3MoqnyrkKDAlsQ_J7ESx3LWKQVNau1lD47qek91E=')"
+        'landingpageimg': "url('https://media.discordapp.net/attachments/113986968223744008/1049875806249295982/pexels-photo-9830116.png')"
       }
     },
   },
