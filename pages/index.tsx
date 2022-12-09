@@ -6,6 +6,7 @@ import landingStyle from '../styles/landingpage.module.css'
 import { motion } from 'framer-motion'
 import { Button } from '../components/button.component'
 import Navbar from '../components/navbar.component'
+import Router from 'next/router'
 
 export default function Home() {
   return (
@@ -50,9 +51,10 @@ export default function Home() {
                 className="bg-blue-700 px-16 text-xl py-5 rounded-lg text-white tracking-widest"
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.4 }}
-                buttonText="Job Seeker"></Button>
+                buttonText="Job Seeker"
+                onClick={() => Router.push('/profiles')}
+                ></Button>
             </motion.div>
-
 
             <motion.div
               initial={{ opacity: 0 }}
