@@ -1,6 +1,10 @@
+/*Primary color*/
+/* #00a8f3 */
+
+
 .landingbgimg{
   /* The image used */
-  background-image: url("https://wallpapercave.com/wp/wp7351948.jpg");
+  background-image: url("../public/LandingPage.png");
 
   /* Full height */
   height: 100%;
@@ -11,6 +15,39 @@
   background-size: cover;
 }
 
-.bg-color-black{
-    background-color: black !important;
+.landingbggradient{
+  background: rgb(34,87,122);
+background: linear-gradient(90deg, rgba(34,87,122,1) 30%, rgba(56,163,165,1) 70%);
+}
+
+.landingbgimgsecondary{
+  background-image: url("../public/pexels-photo-9830116.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  border-radius: 5px;
+}
+
+.landingpagecard_secondary{
+  /* border: 1px solid black; */
+  padding:1rem;
+  height: 100%;
+  box-shadow: 0px 0px 11px 6px #a7a7a7;
+  border-radius: 5px;
+  background-color:#5C9EAD;
+}
+
+.landingpagecard_primary{
+  /* border: 1px solid black; */
+  padding:1rem;
+  height: 100%;
+  box-shadow: 7px 8px 11px #a7a7a7;
+  border-radius: 5px;
+  background-color:#3a68b4;
 }

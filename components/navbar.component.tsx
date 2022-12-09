@@ -28,15 +28,15 @@ function Navbar() {
     }
 
     return (
-        <nav className='flex justify-between w-full h-16 bg-amber-500'>
-            <div className='flex ml-4 font-bold text-3xl h-full w-1/2 text-white items-center'>
+        <nav className='flex justify-between w-full h-16 bg-white'>
+            <div className='flex ml-4 font-bold text-3xl h-full w-1/2 text-[#57CC99] items-center'>
                 <Link href='/'>TALENT MADE</Link>
             </div>
-            <div className='md:flex mr-4 w-1/2 text-white font-bold items-center justify-end gap-4 hidden'>
+            <div className='md:flex mr-4 w-1/2 text-[#22577a] font-bold items-center justify-end gap-4 hidden'>
                 <Link href='/'>Sign Up</Link>
                 <Link href='/'>Log In</Link>
             </div>
-            <div className='flex mr-4 w-1/2 text-white font-bold items-center justify-end gap-4 md:hidden'>
+            <div className='flex mr-4 w-1/2 text-amber-500 font-bold items-center justify-end gap-4 md:hidden'>
                 <button onClick={handleOpenNavMenu}>
                     <MenuIcon ></MenuIcon>
                 </button>
