@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstname": "Andy",
+    "lastname": "Luu",
+    "location": "Alhambra, CA",
+    "summary": "Hi, I'm a Software Engineer",
+    "skills": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "id": 2,
+    "firstname": "Steven",
+    "lastname": "Lu",
+    "location": "Los Angeles, CA",
+    "summary": "Hi, I'm looking for a job",
+    "skills": ["JavaScript", "C++", "CSS"]
+  },
+  {
+    "id": 3,
+    "firstname": "Jason",
+    "lastname": "Nguyen",
+    "location": "Garden Grove, CA",
+    "summary": "Hi, please hire me",
+    "skills": ["JavaScript", "Python", "CSS"]
+  }
+]
