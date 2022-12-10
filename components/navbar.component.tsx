@@ -28,7 +28,7 @@ function Navbar() {
     }
 
     return (
-        <nav className='flex justify-between w-full h-16 bg-white'>
+        <nav className='flex justify-between w-full h-16 bg-white absolute top-0 z-20'>
             <div className='flex ml-4 font-bold text-3xl h-full w-1/2 text-[#57CC99] items-center'>
                 <Link href='/'>TALENT MADE</Link>
             </div>
