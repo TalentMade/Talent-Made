@@ -14,7 +14,6 @@ export default function Home() {
       <Navbar></Navbar>
       <div className={`h-full
       flex flex-col
-      
       border-amber-300
       bg-[#FF8552]
        text-black drop-shadow-xl`} >

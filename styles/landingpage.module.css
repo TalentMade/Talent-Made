@@ -2,7 +2,7 @@
 /* #00a8f3 */
 
 
-.landingbgimg{
+.landingbgimg {
   /* The image used */
   background-image: url("../public/LandingPage.png");
 
@@ -15,12 +15,12 @@
   background-size: cover;
 }
 
-.landingbggradient{
-  background: rgb(34,87,122);
-background: linear-gradient(90deg, rgba(34,87,122,1) 30%, rgba(56,163,165,1) 70%);
+.landingbggradient {
+  background: rgb(34, 87, 122);
+  background: linear-gradient(90deg, rgba(34, 87, 122, 1) 30%, rgba(56, 163, 165, 1) 70%);
 }
 
-.landingbgimgsecondary{
+.landingbgimgsecondary {
   background-image: url("../public/pexels-photo-9830116.png");
 
   /* Full height */
@@ -34,20 +34,21 @@ background: linear-gradient(90deg, rgba(34,87,122,1) 30%, rgba(56,163,165,1) 70%
   border-radius: 5px;
 }
 
-.landingpagecard_secondary{
+.landingpagecard_secondary {
   /* border: 1px solid black; */
-  padding:1rem;
+  padding: 1rem;
   height: 100%;
   box-shadow: 0px 0px 11px 6px #a7a7a7;
   border-radius: 5px;
-  background-color:#5C9EAD;
+  /* background-color:#5C9EAD; */
+  background-color: rgb(16, 125, 184);
 }
 
-.landingpagecard_primary{
+.landingpagecard_primary {
   /* border: 1px solid black; */
-  padding:1rem;
+  padding: 1rem;
   height: 100%;
   box-shadow: 7px 8px 11px #a7a7a7;
   border-radius: 5px;
-  background-color:#3a68b4;
+  background-color: #3a68b4;
 }
